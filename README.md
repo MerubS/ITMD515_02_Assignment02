@@ -16,9 +16,9 @@ This web application connects to a MySQL database (`HR_Db`) through a Payara-man
 
 | Page | URL |
 |------|-----|
-| Home | `[http://localhost:8080/<contextRoot>/index.jsp](http://localhost:8080/assignment_2-1.0-SNAPSHOT/index.jsp)` |
-| Departments | `[http://localhost:8080/<contextRoot>/departments](http://localhost:8080/assignment_2-1.0-SNAPSHOT/departments)` |
-| Employees (by Department) | `[http://localhost:8080/<contextRoot>/employees](http://localhost:8080/assignment_2-1.0-SNAPSHOT/employees)` |
+| Home | `http://localhost:8080/assignment_2-1.0-SNAPSHOT/index.jsp` |
+| Departments | `http://localhost:8080/assignment_2-1.0-SNAPSHOT/departments` |
+| Employees (by Department) | `http://localhost:8080/assignment_2-1.0-SNAPSHOT/employees` |
 
 ---
 
