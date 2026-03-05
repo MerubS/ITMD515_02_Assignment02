@@ -129,3 +129,17 @@ src/main/webapp/
 - Data was generated using [Mockaroo](https://mockaroo.com) — 10 departments, 75 employees
 - The app is strictly read-only; there are no forms for inserting or modifying data
 - Hire dates span the last 15 years (2011–2026)
+
+---
+
+## Mini-Exercise: Reset Action
+
+### Screenshot
+![Add Demo](add.png)
+![Reset Demo](reset.png)
+
+### Short Answer
+I added a `reset()` method to `CartBean` that sets `orderList` back to 0, 
+and handled `action=reset` in the servlet. Because `CartBean` is `@SessionScoped`, 
+the counter persists across requests in the same browser session and the reset 
+action proves we can explicitly modify that session state from the servlet.
