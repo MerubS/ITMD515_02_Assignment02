@@ -135,7 +135,10 @@ src/main/webapp/
 ## Mini-Exercise: Reset Action
 
 ### Screenshot
+Add Activity
 ![Add Demo](screenshots/add.png)
+
+Reset Activity
 ![Reset Demo](screenshots/reset.png)
 
 ### Short Answer
