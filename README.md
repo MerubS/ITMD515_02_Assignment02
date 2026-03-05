@@ -135,8 +135,8 @@ src/main/webapp/
 ## Mini-Exercise: Reset Action
 
 ### Screenshot
-![Add Demo](add.png)
-![Reset Demo](reset.png)
+![Add Demo](screenshots/add.png)
+![Reset Demo](screenshots/reset.png)
 
 ### Short Answer
 I added a `reset()` method to `CartBean` that sets `orderList` back to 0, 
