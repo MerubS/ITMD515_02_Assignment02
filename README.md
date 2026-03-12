@@ -146,3 +146,7 @@ I added a `reset()` method to `CartBean` that sets `orderList` back to 0,
 and handled `action=reset` in the servlet. Because `CartBean` is `@SessionScoped`, 
 the counter persists across requests in the same browser session and the reset 
 action proves we can explicitly modify that session state from the servlet.
+
+---
+### Proof of Dirty Checking
+![Proof Demo](screenshots/lab03 ASWE.png)
